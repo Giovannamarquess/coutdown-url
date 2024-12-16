@@ -1,0 +1,45 @@
+/* Estilização do corpo da página */
+body {
+  font-family: 'Oswald', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: auto;
+  background-color: #0e024e;
+  color: #0e024e;
+  max-width: 600px;
+  width: 100%;
+}
+
+/* Estilização do countdown */
+#countdown {
+  text-align: center;
+  font-size: 0.75em;
+  padding: 20px;
+  border-radius: 60px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Estilização de cada bloco de tempo (dias, horas, minutos, segundos) */
+.time {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+/* Estilização dos números dentro de cada bloco de tempo */
+.time span {
+  display: block;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+/* Estilização da mensagem de Promoção Encerrada */
+#countdown span {
+  color: red;
+  font-size: 1.5em;
+}
